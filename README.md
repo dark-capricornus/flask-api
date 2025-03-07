@@ -1,24 +1,63 @@
-<h1>FULL-Stack Workshop in Python Flask</h1>
-<h2>Tutorials</h2>
-    [] Use these Commands for the Project setup:<br>        1. Create a virtual environment:
-        
-        python -m venv env<br>
+<header style="text-align:center">
 
-    2. Activate the virtual environment:<br>
-            - ./env/Scripts/activate
-        3. install flask: (For Safety purposes use pip3)
-            - pip3 install flask
-        4.
+# Full-Stack Workshop in Python Flask
 
+</header>
 
+<h2 style="text-align:center">
 
+Project Set-up Instructions
 
+</h2>
 
+### Use these Commands for the Project setup:
 
+### 1. Initialize an empty repository:
 
+```
+git init
+```
+### 2. sending the repo to github:
 
+```
+gh repo create <repo_name>          # creates a repo
+git remote add origin <repo url>    #connecting local and remote repos
+git branch -M main                  #creating a branch 
+git push -u origin main             #pushing the final edits 
+```
+_*These commands will help you in creating a new repository on GitHub and link it to your local repository._
 
+### 3.Create a virtual environment:
 
+```
+python -m venv env
+```
 
-#This Project Folder is created for the usage of Full-Stack Workshop
+### 4. Activate the virtual environment:<br>
 
+```
+./env/Scripts/activate
+```
+
+### 5. install flask: (For Safety purposes use pip3)
+
+```
+pip3 install flask
+```
+
+### 6. Freeze the requirements
+
+```
+pip freeze > requirements.txt
+```
+### 7. For running the project, use :
+```
+python app.py
+```
+<p style="text-align:center"> ( or ) </p>
+
+```
+flask run
+```
+
+###### _This Project Folder is created for the usage of Full-Stack Workshop_
