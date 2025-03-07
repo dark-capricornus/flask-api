@@ -1,10 +1,10 @@
-<header style="text-align:center">
+<header>
 
 # Full-Stack Workshop in Python Flask
 
 </header>
 
-<h2 style="text-align:center">
+<h2>
 
 Project Set-up Instructions
 
@@ -54,10 +54,10 @@ pip freeze > requirements.txt
 ```
 python app.py
 ```
-<p style="text-align:center"> ( or ) </p>
+<p> ( or ) </p>
 
 ```
 flask run
 ```
-
+- [x] By using all the above steps you will be able to create a basic flask project setup.Happy coding:)
 ###### _This Project Folder is created for the usage of Full-Stack Workshop_
