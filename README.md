@@ -60,4 +60,5 @@ python app.py
 flask run
 ```
 - [x] By using all the above steps you will be able to create a basic flask project setup.Happy coding:)
+
 ###### _This Project Folder is created for the usage of Full-Stack Workshop_
